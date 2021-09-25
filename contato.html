@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="contato.css">
+     <link rel="stylesheet" href="nav_footer.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+     <link rel="sortcut icon" href="img/logo.png"/>
+     <title>Cooperserra | Fale Conosco</title>
+</head>
+<body>
+   <header>
+      <nav>
+        <a class="logo" href="index.html"><img src="img/logo_3d.png" width="320px"></a>
+        <div class="mobile-menu">
+           <div class="line1"></div>
+           <div class="line2"></div>
+           <div class="line3"></div>
+        </div>
+          <ul class="nav-list">
+           <li><a href="index.html">Home</a></li>  
+           <li><a href="empresa.html">Empresa</a></li>
+           <li><a href="estrutura.html">Estrutura</a></li>
+           <li><a href="produtos.html">Produtos</a></li>
+           <li><a href="localizacao.html">Localização</a></li>
+           <li><a href="contato.html">Contato</a></li>
+          </ul>
+      </nav>
+  </header>
+  <script src="mobile-navbar.js"></script>
+
+   <section class="contato">   
+      <form action="https://formsubmit.co/recepcao@cooperserra.com.br" method="POST" class="form">
+
+         <label class="titulo_input" for="name">Nome*</label>
+         <input type="text" name="Nome" id="name" placeholder="Digite seu nome..." required />
+
+         <label class="titulo_input" for="email">E-mail*</label>
+         <input type="email" name="Email" id="email" placeholder="Digite seu email..."  required />
+
+         <label class="titulo_input" for="email">Cidade*</label>
+         <input type="text" name="Cidade" id="cidade" placeholder="Digite o nome da sua cidade..."/>
+
+         <label class="titulo_input" for="message">Mensagem*</label>
+         <textarea name="Mensagem" id="message" placeholder="Deixe sua mensagem..."  required></textarea>
+
+         <input type="hidden" name="_captcha" value="false" />
+         <input type="hidden"name="_next" value="http://www.cooperserra.com.br/contato_obrigado.html"/>
+         
+         <button type="submit">Enviar</button>
+         
+      </form>     
+   </section> 
+
+</body>
+</html>      

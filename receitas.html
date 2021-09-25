@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+   <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="receitas.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+     <link rel="sortcut icon" href="img/logo.png"/>
+     <title>Cooperserra | Receitas</title>
+</head>
+<body> 
+  <section class="receitas"><!--inicio das receitas-->
+
+      <div class="botao_receitas"><!--link para voltar para os produtos-->
+         <a href="produtos.html">Voltar</a>
+      </div>
+
+      <div class="passar">
+        <p>Use para passar para as <br> próximas receitas!</p>
+     </div>
+
+     <div class="fontes">
+      <p>Créditos: https://www.tudogostoso.com.br/</p>
+     </div>
+
+    <div class="img-slider">
+      <div class="slide active">
+        <img src="img/receitas/torta_de_maca.png">
+      </div>
+
+      <div class="slide">
+         <img src="img/receitas/maca_do_amor.png">
+      </div>
+
+      <div class="slide">
+         <img src="img/receitas/geleia de maca.png">
+      </div>
+
+      <div class="slide">
+         <img src="img/receitas/bolo_de_maca.png">
+      </div>
+
+      <div class="navigation"><!--botões de navegação das receitas-->
+        <div class="btn active">1</div>
+        <div class="btn">2</div>
+        <div class="btn">3</div>
+        <div class="btn">4</div>
+      </div>
+    </div>
+
+  </section><!--final das receitas-->
+
+    <script type="text/javascript">/*Java script dos botões de navegação*/
+    var slides = document.querySelectorAll('.slide');
+    var btns = document.querySelectorAll('.btn');
+    let currentSlide = 1;
+
+    //Javascript
+    var manualNav = function(manual){
+      slides.forEach((slide) => {
+        slide.classList.remove('active');
+
+        btns.forEach((btn) => {
+          btn.classList.remove('active');
+        });
+      });
+
+      slides[manual].classList.add('active');
+      btns[manual].classList.add('active');
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        manualNav(i);
+        currentSlide = i;
+      });
+    });
+    </script>
+    
+</body>
+</html>

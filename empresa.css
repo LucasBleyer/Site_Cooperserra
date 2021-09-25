@@ -1,0 +1,77 @@
+@media (max-width:999px){
+  .conteudo > p{
+     margin-left: 20px;
+     margin-right: 20px;
+  }
+
+  .timeline{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.banner{
+  margin-top: 10vh;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.banner_empresa{
+  background-image: url(img/background_white_empresa.jpg);
+  background-size:100%;
+}
+
+.empresa{  
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.empresa h1{
+  margin: 10px;
+  color: rgb(206, 0, 0);
+  font-size:38px;
+  text-align: center;
+}
+
+.conteudo{
+  text-align: center;
+  width: 800px;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+.conteudo > p{
+  margin-bottom: 12px;
+  font-family: tahoma;
+}
+
+.maca_fatiada{
+  margin: 0 auto;
+  height: 460px;
+}
+
+.timeline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline>img{
+  width:900px;
+}
+
+.aniversario>img{
+  width: 390px;
+}
+
+.aniversario{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}

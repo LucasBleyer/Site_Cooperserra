@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contato {
+  background-color: rgb(202,0,0);
+  background-image: url(img/red_white_abstract.png);
+  background-size:cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Lato';
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.form{
+  width: 100%;
+  max-width: 498px;
+  font-size: 18px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.form input,
+.form textarea{
+  display: block;
+  width: 100%;
+}
+
+.titulo_input{
+  color: #fff;
+  line-height: 1;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transition: border-color 0.2s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: rgb(151, 0, 0);
+}
+
+.form button {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding: 1rem;
+  background: rgb(202, 0, 0);
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: rgb(109, 0, 0);
+}
+
+.body_obrigado{
+  background-color: rgb(202,0,0);
+  background-image: url(img/red_white_abstract.png);
+  background-size:cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Lato';
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.form_obrigado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_obrigado > h1{
+  color: white;
+  font-family: 'lato';
+  font-size: 45px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form_obrigado > a{
+  margin: 10px;
+  background-color: rgb(202,0,0);
+  color: #fff;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  font-size: 26px; 
+  border-radius: 50px; 
+}
+
+.botao_voltar:hover{
+ background-color: rgb(128, 0, 0);
+}

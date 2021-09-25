@@ -1,0 +1,105 @@
+
+@media (max-width:999px){
+   .banner{
+      margin-top: 10vh;
+   }
+
+   .historia_maca > p{
+      margin-left: 25px;
+      margin-right: 25px;
+   }
+
+   .tipos > img{
+      width: 350px;
+   }
+}
+
+.banner{
+   width: 100%;
+   margin-bottom: -10px;
+}
+
+.body{
+   background-image: url(img/background_white_empresa.jpg);
+   background-size: 100%;
+}
+
+.historia_maca{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-image: url(img/banner_galhos.png);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.historia_maca h1{
+   display: flex;
+   margin: 45px;
+   color: rgb(206, 0, 0);
+   font-size:xx-large;
+   text-align: center;
+ }
+ 
+.historia_maca p{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   max-width: 780px;
+   font-size: 22px;
+   font-family: tahoma;
+}
+
+.link_receitas{
+   color: rgb(206, 0, 0);
+}
+
+.link_receitas:hover{
+   color: rgb(174, 0, 0);
+}
+
+.informacoes{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.informacoes > .tipos{
+   width: 600px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   flex-direction: column;
+   margin: 2vw;
+}
+
+.informacoes h1{
+   color: rgb(206, 0, 0);
+   display: flex;
+   margin: 45px;
+   font-weight:900;
+   font-size:xx-large;
+   text-align: center;
+}
+
+.tipos_text{
+   margin-bottom: 40px;
+}
+
+.tipos > img{
+   max-width: 600px;
+   border-radius: 20px;
+}
+
+.fontes{
+   font-size: 10px;
+   text-align: left;
+   color:rgba(0, 0, 0, 0.638);
+   margin-bottom: 20px;
+}

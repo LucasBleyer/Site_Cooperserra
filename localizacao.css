@@ -1,0 +1,52 @@
+ .banner{
+   margin-top: 10vh;
+   width: 100%;
+   margin-bottom: -10px;
+ }
+
+.bg_local{
+  background-image: url(img/banner_galhos_top.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  color: rgb(206, 0, 0);
+  font-weight:900;
+  font-size: 45px;
+}
+
+.localizacao{
+  max-width: 720px;
+  padding: 0 30px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: tahoma;
+}
+
+.bg_mapa{
+  margin-top: 40px; 
+  background-image: url(img/background_white.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.google_maps{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+ }
+
+.google_maps > iframe{
+  padding: 20px;
+  min-width: 70vw;
+  min-height: 70vh;
+}

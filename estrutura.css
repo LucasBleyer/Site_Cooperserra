@@ -1,0 +1,151 @@
+@media (max-width:999px){
+  .banner{
+    margin-top: 10vh;
+  }
+
+  .conteiner_empresa{  
+    margin-top: 10vh;
+  }
+
+  .body{
+    margin-top: 10vh;
+  }
+
+  .tour img{
+    width: 350px;
+  }
+
+  .conteiner_empresa > p{
+    padding:0 40px;
+  }
+
+  .sobre_estrutura > p{
+    padding:0 40px;
+  }
+
+  h2{
+    margin-left: 40px;
+  }
+}
+
+.banner{
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.bg_estrutura{
+  background-image: url(img//background_white_empresa.jpg);
+  background-size: 100%;
+}
+
+.galhos{
+  background-image: url(img/galhos_invertidos.png);
+  background-size: 100%;
+  background-position: center;
+}
+
+.conteiner_empresa{  
+  width: 100%;
+  height:100%;
+  overflow-y:hidden;
+  margin-top: 30px;
+}
+
+.after_before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+.antigas{
+  max-width: 730px;
+}
+
+.after_before img{
+  max-width:90%;
+  padding: 20px;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(206, 0, 0);
+  font-weight:900;
+  font-size: 45px;
+}
+
+.conteiner_empresa > p{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 720px;
+  font-size: 22px;
+  font-family: tahoma;
+}
+
+.balde{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto;
+ padding-top: 40px;
+ max-width: 200px;
+}
+
+.tour{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.tour h1{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.tour img{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 760px;
+  max-height: 460px;
+  border-radius: 10px;
+}
+
+.sobre_estrutura:nth-child(4)  img{
+  max-width: 920px;
+  max-height: 620px;
+  border-radius: 0;
+}
+
+.sobre_estrutura:nth-child(5) img{
+  max-width: 920px;
+  max-height: 620px;
+}
+
+.sobre_estrutura:nth-child(5){
+  margin-bottom: 50px;
+}
+
+h2{
+  color: red;
+  margin-top: 32px;
+  font-family:cursive;
+  font-size: 25px;
+}
+
+.tour p{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  max-width: 695px;
+  font-size: 22px;
+  margin-left: 45px;
+  margin-top: -25px;
+  font-family: tahoma;
+}

@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  background-color: rgb(181, 0, 0); 
+}
+
+.botao_receitas a{
+   margin: 30px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(211, 0, 0);
+   padding: 10px 50px 10px 50px;
+   text-decoration: none;
+   font-size: 25px; 
+   font-family: 'Lato';
+   border-radius: 50px; 
+}
+
+.botao_receitas :hover{
+  background-color: rgb(181, 0, 0);
+  color: #fff;
+  border: 1px solid rgb(255, 255, 255);;
+}
+
+.botao_receitas{
+  display: grid;
+  place-items: center;
+}
+
+.img-slider{
+  margin: 0 auto;
+  position: relative;
+  width: 800px;
+  height: 400px;
+}
+
+.img-slider .slide{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active{
+  clip-path: circle(150% at 0 50%);
+  transition: 2s;
+  transition-property: clip-path;
+}
+
+.img-slider .slide img{
+  z-index: 1;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.fontes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+
+}
+
+.img-slider .navigation{
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  top: -75px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.passar{
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.img-slider .navigation .btn{ 
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(181, 0, 0);
+  background: rgba(226, 226, 226, 0.611);
+  font-size:24px;
+  font-family: 'Lato';
+  width: 40px;
+  height: 40px;
+  margin: 20px ;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.img-slider .navigation .btn.active{
+  background: #ffffff;
+  box-shadow: 0 0 2px rgba(255, 2, 2, 0.5);
+}
+
+@media (max-width: 820px){
+  .img-slider{
+    width: 600px;
+    height: 375px;
+  }
+
+  .img-slider .slide .info{
+    padding: 10px 25px;
+  }
+
+  .img-slider .slide .info h2{
+    font-size: 35px;
+  }
+
+  .img-slider .slide .info p{
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .img-slider .navigation{
+    bottom: 25px;
+  }
+
+  .img-slider .navigation .btn{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 620px){
+  .img-slider{
+    width: 400px;
+    height: 250px;
+  }
+
+  .img-slider .slide .info{
+    padding: 10px 20px;
+  }
+
+  .img-slider .slide .info h2{
+    font-size: 30px;
+  }
+
+  .img-slider .slide .info p{
+    width: 80%;
+    font-size: 13px;
+  }
+
+  .img-slider .navigation{
+    bottom: 15px;
+  }
+
+  .img-slider .navigation .btn{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 420px){
+  .img-slider{
+    width: 320px;
+    height: 200px;
+  }
+
+  .img-slider .slide .info{
+    padding: 5px 10px;
+  }
+
+  .img-slider .slide .info h2{
+    font-size: 25px;
+  }
+
+  .img-slider .slide .info p{
+    width: 90%;
+    font-size: 11px;
+  }
+
+  .img-slider .navigation{
+    bottom: 10px;
+  }
+}  

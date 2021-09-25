@@ -1,0 +1,147 @@
+@media (max-width:999px){
+   h1{
+      padding: 0 25px;
+   }
+
+   .receitas{
+      margin-top: -60px;
+   }
+
+   .receitas div{
+      padding: 0 30px;
+   }
+
+   .new{
+      width: 300px;
+   }
+
+ }
+
+.banner{
+   margin-top: 10vh;
+   width: 100%;
+   margin-bottom: -10px;
+ }
+
+.bg_produtos{
+   background-image: url(img//background_white_empresa.jpg);
+   background-size: 100%;
+}
+
+.galhos{
+   background-image: url(img/galhos_invertidos.png);
+   background-size: 100%;
+   background-position: center;
+}
+
+ h1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 20px;
+   color: rgb(206, 0, 0);
+   font-weight:900;
+   font-size: 45px;
+}
+
+p{
+   margin: 0 auto;
+   text-align: center;
+   max-width: 900px;
+   font-size: 24px;
+}
+ 
+.produtos{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   max-width: 1200px;
+   margin: 0 auto;
+} 
+
+.produto{
+   width: 300px;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid rgba(41, 41, 41, 0.404);
+   margin: 40px;
+   border-radius: 10px;
+}
+
+.novidades{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.new{
+   max-width: 760px;
+   border-radius: 10px;
+}
+
+.produtos_plastico{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+.produto h3{
+   width: 300px;
+   margin-top: -4px;
+   text-align: center;
+   color: #fff;
+   background-color: rgb(202, 0, 0);
+   font-family: 'Lato';
+   font-size: 23px;
+
+}
+
+.produto p{
+   width: 290px;
+   text-align: center;
+   padding: 5px;
+   color: rgb(202,0,0);
+   background-color: rgb(255, 255, 255);
+   font-family: 'Lato';
+   font-size: 18px;
+}
+
+.botao_receitas a{
+   margin: 30px;
+   background-color: rgb(202,0,0);
+   color: #fff;
+   padding: 10px 50px 10px 50px;
+   text-decoration: none;
+   font-size: 26px; 
+   border-radius: 50px; 
+}
+
+.receitas div{
+   display: flex;
+   align-items: center;
+   justify-self:center;
+   flex-direction: column;
+   font-family: tahoma;
+}
+
+.produto > img{
+   background-color: #fff;
+}
+
+.botao_receitas :hover{
+  background-color: rgb(128, 0, 0);
+}
+
+.botao_receitas{
+   margin-bottom: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
